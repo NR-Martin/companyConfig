@@ -1,3 +1,6 @@
 ---
 
-message: nick
+spring:
+  profiles: cloud
+
+message: hello roster app

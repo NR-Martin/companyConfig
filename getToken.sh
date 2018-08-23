@@ -15,5 +15,5 @@ curl -H "Authorization: bearer $token" -H "Accept: application/json" $uri/app-na
 echo Doing company specific request
 curl -H "Authorization: bearer $token" -H "Accept: application/json" $uri/company/cloud | jq
 
-echo Doing company specific request
+echo Doing roster specific request
 curl -H "Authorization: bearer $token" -H "Accept: application/json" $uri/roster/cloud | jq
