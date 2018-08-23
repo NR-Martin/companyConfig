@@ -1,6 +1,15 @@
 ---
 
 spring:
-  profiles: cloud
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    default-property-inclusion: NON_NULL
 
-message: hello roster app
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
