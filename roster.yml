@@ -14,4 +14,4 @@ management:
       exposure:
         include: "*"
 
-message: Changing muh message
+message: Here's another new message
