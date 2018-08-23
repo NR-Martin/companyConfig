@@ -1,0 +1,8 @@
+{
+  "git": {
+    "uri": "https://github.com/NR-Martin/companyConfig.git"
+  },
+  "encrypt": {
+    "key": "talesFromTheEncrypt"
+  }
+}
